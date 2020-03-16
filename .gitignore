@@ -1,0 +1,25 @@
+# windows
+Thumbs.db
+
+# visual studio
+.vs/
+*.VC.opendb
+*.VC.db
+
+# go
+__debug_bin
+
+# visual studio code
+.vscode/
+
+[Oo]bj/
+[Bb]in/
+[Dd]ebug*/
+[Rr]ease*/
+[Pp]ackage*/
+x64/
+
+
+# node.js
+node_modules/
+bower_components/
