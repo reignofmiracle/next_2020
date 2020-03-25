@@ -32,6 +32,10 @@ class User2 constructor(val nickname: String,
     }
 }
 
+class DelegatingCollection<T>(
+    innerList: Collection<T> = ArrayList<T>()
+) : Collection<T> by innerList
+
 
 fun main(args: Array<String>) {
     val button = Button()
