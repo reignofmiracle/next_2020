@@ -1,0 +1,8 @@
+name: dart_package_test
+version: 1.2.3
+description: >-
+  캬캬캬캬캬
+homepage: http://google.com
+documentation: http://google.com
+dev_dependencies:
+  test: ^1.14.2
