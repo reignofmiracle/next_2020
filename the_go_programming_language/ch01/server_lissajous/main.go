@@ -4,11 +4,13 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"./lissajous"
 )
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		Lissajous(w)
+		lissajous.Lissajous(w)
 	})
 	log.Fatal(http.ListenAndServe("localhost:8000", nil))
 }
