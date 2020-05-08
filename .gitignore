@@ -1,6 +1,9 @@
 # windows
 Thumbs.db
 
+# mac
+.DS_Store
+
 # visual studio
 .vs/
 *.VC.opendb
