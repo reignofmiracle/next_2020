@@ -1,8 +1,8 @@
 package main
 
 import (
-	"time"
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -24,5 +24,5 @@ func fib(x int) int {
 	if x < 2 {
 		return x
 	}
-	return fib(x - 1) + fib(x - 2)
+	return fib(x-1) + fib(x-2)
 }
