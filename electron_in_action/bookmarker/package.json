@@ -11,6 +11,6 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "electron": "^10.1.0"
+    "electron": "^10.2.0"
   }
 }
